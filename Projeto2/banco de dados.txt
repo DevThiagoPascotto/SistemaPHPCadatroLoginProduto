@@ -1,0 +1,25 @@
+create database bdpw3;
+use bdpw3;
+
+create table demo(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name varchar (80),
+    idade varchar(40),
+    abrir varchar (40),
+    dobrar varchar (40)
+    );
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(100) NOT NULL,
+    senha VARCHAR(255) NOT NULL
+);
+
+
+create table produto(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name varchar (80),
+    valor varchar(40),
+    marca varchar (40)
+    
+    );

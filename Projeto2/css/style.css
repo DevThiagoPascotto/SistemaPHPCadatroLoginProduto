@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Alinhamento do conteúdo centralizado */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para o formulário */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Título do formulário */
+form span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Campos de input */
+.field {
+    margin-bottom: 20px;
+}
+
+.field label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.field input[type="text"], .field input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.field input[type="text"] {
+    background-color: #f9f9f9;
+}
+
+.field input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Estilo para os botões */
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Navegação */
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do campo de checkbox */
+.flex-flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Ajustes gerais */
+.padding-bottom--24 {
+    margin-bottom: 24px;
+}
+
+.padding-bottom--salvar {
+    margin-top: 20px;
+}
